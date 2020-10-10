@@ -20,6 +20,8 @@ target_link_libraries(ktamaga
     X11::X11
 )
 
+install(TARGETS ktamaga RUNTIME DESTINATION ${KDE1_BINDIR})
+
 install_icon(ktamaga.xpm)
 install(FILES ktamaga.kdelnk DESTINATION ${KDE1_APPSDIR}/Games/)
 

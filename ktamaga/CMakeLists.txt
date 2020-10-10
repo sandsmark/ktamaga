@@ -28,3 +28,24 @@ add_executable(convert convert.cpp tamdata.cpp)
 target_link_libraries(convert Qt::Qt1 X11::X11)
 
 add_subdirectory(data)
+
+install(FILES
+    doc/en/configure.html
+    doc/en/index-1.html
+    doc/en/index-2.html
+    doc/en/index-3.html
+    doc/en/index-4.html
+    doc/en/index-5.html
+    doc/en/index.html
+    doc/en/alltamag.png
+    doc/en/iattent.png
+    doc/en/ieat.png
+    doc/en/ienject.png
+    doc/en/ilight.png
+    doc/en/interface1.png
+    doc/en/iplay.png
+    doc/en/istatus.png
+    doc/en/iteach.png
+    doc/en/itoile.png
+    doc/en/tchart.png
+    DESTINATION ${KDE1_HTMLDIR}/en/ktamaga )

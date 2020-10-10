@@ -6,6 +6,9 @@
                 (C) 2000, Thomas Leineweber (maintainer)
                 <leine@users.sourceforge.net>
 
+![default view](/screenshot1.png)
+![info view](/screenshot2.png)
+
  This is a Tamagotchi emulator (you know, that silly LCD game from Ban Dai).
 This program falls under the GNU GPL v2, see the file 'COPYING'.
 

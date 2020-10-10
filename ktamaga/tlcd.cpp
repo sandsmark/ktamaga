@@ -235,6 +235,11 @@ void tlcd::loadbase( void )
  dbgtime("read base");
 
  r=q;
+
+ // TODO:
+ // This is slow, should find a way to just build it in since its XPMs (but
+ // that would be annoyingly mind-numbingly boring, since there's like 60 of
+ // them).
  for ( ; *p ; p++ ) {
   if (pspec[cnt]) delete pspec[cnt];
   if (r>=qend) { printf(".%d. ",cnt); cnt++; continue; } 

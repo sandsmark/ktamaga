@@ -107,7 +107,7 @@ private:
     
     KMenuBar            *menu;
     QPopupMenu		*pmenu;
-    QPixmap		pcont[25]; // pixmaps/icons for pushbuttons
+    QPixmap		pcont[B_MAX + 1]; // pixmaps/icons for pushbuttons
     QPixmap		bp;	   // background pixmap
     QTimer		*tx;	   // timer for scheduler
     QString		saveName;  // save file/dat name

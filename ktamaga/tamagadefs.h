@@ -165,7 +165,7 @@
 #define B_TRIGHT	14
 #define B_DEBUGSET	15 
 // +7
-#define B_MAX		22+1 // update, if needed!
+#define B_MAX		22 // update, if needed!
 
 #define TIMEMULT	60.0
 

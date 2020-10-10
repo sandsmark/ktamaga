@@ -184,6 +184,7 @@ void tlcd::loadblock( void )
  qend=q+f->size();
  f->readBlock(q,f->size());
  f->close();
+ delete f;
 
  r=q;
  for ( ; *p ; p++ ) {
@@ -232,6 +233,8 @@ void tlcd::loadbase( void )
  qend=q+f->size();
  f->readBlock(q,f->size());
  f->close();
+ delete f;
+
  dbgtime("read base");
 
  r=q;

@@ -59,6 +59,17 @@ tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
  dbgtime("load base");
 }
 
+tlcd::~tlcd( )
+{
+ // For leak checking
+#ifndef NDEBUG
+ for (int c=0;c<100;c++) delete pspec[c];
+ for (int c=0;c<100;c++) delete pdat[c];
+ delete pbase;
+ delete pbk;
+#endif
+}
+
 void tlcd::changeSet( void )
 {
  if (ospeed!=config->lcspeed)

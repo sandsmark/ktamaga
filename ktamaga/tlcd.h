@@ -52,6 +52,7 @@ class tlcd : public QWidget
  
 public:
  tlcd( QWidget *parent=0, const char *name=0 );
+ ~tlcd();
 // void		setAnim( int aid );
  void		setState( int );
  void		setInfoAnim( int age, int wgt, int hun, int dis, int hap );

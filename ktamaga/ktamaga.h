@@ -99,6 +99,11 @@ signals:
 protected:
     void resizeEvent( QResizeEvent * );
 
+#ifndef NDEBUG
+    // For leak checking
+    void closeEvent( QCloseEvent * ) { delete this; }
+#endif
+
 private:
     QPushButton 	*quit;
     QPushButton 	*bcont[8]; // 8 bushbuttons

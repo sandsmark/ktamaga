@@ -58,6 +58,13 @@ Ktamaga::Ktamaga( QWidget *parent, const char *name )
 Ktamaga::~Ktamaga( void )
 {
  saveTama();
+
+ // For leak checking
+#ifndef NDEBUG
+ delete menu;
+ delete pmenu;
+ delete config;
+#endif
 }
 
 void Ktamaga::createMenu( void )

@@ -25,6 +25,7 @@
 #define ABOUT_MSG i18n("KTamaga v0.6 was written and is\n" \
                        "(C) 1997 by John Zero <johnzero@telnet.hu>\n" \
                   "(C) 2000 by Thomas Leineweber <leine@users.sourceforge.net>\n" \
+                  "(C) 2020 by Martin Sandsmark <martin.sandsmark@kde.org>\n" \
                   "This program falls under the GNU GPL license") 
 
 //------------------------------------

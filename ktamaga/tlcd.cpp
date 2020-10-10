@@ -19,6 +19,10 @@
 #include "ktamaga.h"
 #include "tlcd.h"
 
+#ifdef __linux__
+#include <linux/limits.h> // for PATH_MAX
+#endif
+
 //--------------------------------------------------------
 
 tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
@@ -442,14 +446,18 @@ void tlcd::ShowInfos( void )
 void tlcd::loadPos( void )
 {
  QFile f;
+#ifdef __linux__
+ char buf[PATH_MAX];
+#else
  char buf[303];
+#endif
  char *p;
  int cnt=0,c;
 
  sprintf(buf,config->datadir+"/position_%d.dat",tphase);
  f.setName(buf);
  if (!f.open(IO_ReadOnly|IO_Translate)) {
-   printf("Error loading pos's\n");
+   printf("Error loading pos's from %s\n", buf);
    for (c=0;c<100;c++) { andp[c].dx=0; andp[c].dy=0; }
    return;
  } else printf("Loading pos's\n");

@@ -27,6 +27,7 @@ Ktamaga::Ktamaga( QWidget *parent, const char *name )
  QString s;
 
  initVars();
+ dbgtime("initvars");
 
  cont = new QWidget( this );
 
@@ -34,17 +35,24 @@ Ktamaga::Ktamaga( QWidget *parent, const char *name )
  
  for (c=0;c<B_MAX;c++)
   pcont[c].load((config->datadir+"/")+icnam[c]);
+ dbgtime("load icons");
 
  createWidgets();
+ dbgtime("create widgets");
  setCaption("Tamaga");
  placeWidgets();
+ dbgtime("place widgets");
 
  initScheduler(); // must come before loadtama
+ dbgtime("init scheduler");
  if (!loadTama())
   resetTama();
+ dbgtime("load tama");
 
  startTama();
+ dbgtime("start tama");
  startScheduler();
+ dbgtime("start sched");
 }
 
 Ktamaga::~Ktamaga( void )
@@ -67,9 +75,13 @@ void Ktamaga::createMenu( void )
 void Ktamaga::createWidgets( void )
 {
  createMenu();
+ dbgtime("create menu");
  createButt();
+ dbgtime("create butt");
  scr = new tlcd( cont, "lcdmain" );
+ dbgtime("create tlcd");
  cont->setBackgroundPixmap(bp);
+ dbgtime("set background");
  connect( scr, SIGNAL(endState()), SLOT(stateEnded()) );
  connect( scr, SIGNAL(clickedX( QPoint )), SLOT(popmenu( QPoint )) );
 }

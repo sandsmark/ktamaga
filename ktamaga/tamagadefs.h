@@ -183,5 +183,10 @@ extern KApplication *app;
 #include "conf.h"
 extern conf *config;
 
+#ifndef NDEBUG
+void dbgtime(const char *id);
+#else
+#define dbgtime(x)
+#endif
 
 #endif

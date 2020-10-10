@@ -29,6 +29,7 @@ tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
 {
  pbase = new QPixmap();
  pbase->load(config->datadir+"/tama_base.xpm");
+ dbgtime("load base");
  curan=0;
  framecnt=0;
  fcn=0;
@@ -46,13 +47,16 @@ tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
  endf=0;
  tphase=0;
  norms=AN_NORML;
+ dbgtime("tlcd init");
 
  for (int c=0;c<100;c++) pspec[c]=0;
  for (int c=0;c<100;c++) pdat[c]=0;
  pbk = new QPixmap(*pbase);
  setBackgroundPixmap(*pbk);
+ dbgtime("set bg");
 
  loadbase();
+ dbgtime("load base");
 }
 
 void tlcd::changeSet( void )
@@ -228,6 +232,7 @@ void tlcd::loadbase( void )
  qend=q+f->size();
  f->readBlock(q,f->size());
  f->close();
+ dbgtime("read base");
 
  r=q;
  for ( ; *p ; p++ ) {
@@ -245,10 +250,12 @@ void tlcd::loadbase( void )
 
   cnt++;
  }
+ dbgtime("load base pixmap");
  free(q);
 
  printf("\n");
  loadPos();
+ dbgtime("load pos");
 }
 
 

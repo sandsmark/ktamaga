@@ -1,0 +1,43 @@
+#define MESS2_format 1
+#define MESS2_width 47
+#define MESS2_height 32
+#define MESS2_ncolors 2
+#define MESS2_chars_per_pixel 1
+static char *MESS2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *MESS2_pixels[] = {
+"bbbbbbaaaaaaaabbaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbaaaaaaaabbaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaaaabbbbbbbbbbbbbbbbaaaabbbbbbbbbbbbbbbbbbbbb",
+"bbaaaabbbbbbbbbbbbbbbbaaaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbaaaaaaaaaaaaaaaabbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbaaaaaaaaaaaaaaaabbaabbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbaabbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbaabbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbaabbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbbbbbaabbbbbbbaabbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbaabbbbbbbaabbbbbbbbbbbbaa",
+"bbbbaabbbbbbbbbbbbbbbbaabbbbbbbaabbbbbbbbbbbbaa",
+"aaaabbaabbbbbbbbbbbbaabbbbbbbbbbbbbbbaabbbbaabb",
+"aaaabbaabbbbbbbbbbbbaabbbbbbbbbbbbbbbaabbbbaabb",
+"aabbbbbbaaaaaaaaaaaabbaaaabbbbbbbbbbbaaaabbbbbb",
+"aabbbbbbaaaaaaaaaaaabbaaaabbbbbbbbbbbaaaabbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbbbaabbbbbbbaaaabbaabbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbbbaabbbbbbbaaaabbaabbbb",
+"aaaaaabbbbbbbbbbbbbbbbbbaaaaaabbbaabbaaaaaaaabb",
+"aaaaaabbbbbbbbbbbbbbbbbbaaaaaabbbaabbaaaaaaaabb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaabb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaabb"
+};

@@ -1,0 +1,33 @@
+#define SICK2_format 1
+#define SICK2_width 26
+#define SICK2_height 22
+#define SICK2_ncolors 2
+#define SICK2_chars_per_pixel 1
+static char *SICK2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SICK2_pixels[] = {
+"bbbbbbbbbbaaaaaaaaaabbbbbb",
+"bbbbbbbbbbaaaaaaaaaabbbbbb",
+"bbbbbbbbaabbbbbbbbbbaabbbb",
+"bbbbbbbbaabbbbbbbbbbaabbbb",
+"bbaaaaaabbaaaabbaaaabbaabb",
+"bbaaaaaabbaaaabbaaaabbaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbbbaabbbbbbbbbbbbaabb",
+"bbbbbbbbaabbbbbbbbbbbbaabb",
+"bbbbbbbbbbaaaaaaaaaaaabbbb",
+"bbbbbbbbbbaaaaaaaaaaaabbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbb"
+};

@@ -1,0 +1,41 @@
+#define SNACK2_format 1
+#define SNACK2_width 16
+#define SNACK2_height 30
+#define SNACK2_ncolors 2
+#define SNACK2_chars_per_pixel 1
+static char *SNACK2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SNACK2_pixels[] = {
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbbb",
+"bbbbaabbbbbbbbbb",
+"bbaaaabbbbbbbbbb",
+"bbaaaabbbbbbbbbb",
+"aaaaaaaaaaaabbbb",
+"aaaaaaaaaaaabbbb",
+"bbbbaabbaaaabbbb",
+"bbbbaabbaaaabbbb",
+"bbbbaaaabbaabbbb",
+"bbbbaaaabbaabbbb",
+"bbbbaaaaaaaaaaaa",
+"bbbbaaaaaaaaaaaa",
+"bbbbbbbbbbaaaabb",
+"bbbbbbbbbbaaaabb",
+"bbbbbbbbbbaabbbb",
+"bbbbbbbbbbaabbbb"
+};

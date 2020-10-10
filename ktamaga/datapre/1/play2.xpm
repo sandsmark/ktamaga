@@ -1,0 +1,25 @@
+#define PLAY2_format 1
+#define PLAY2_width 12
+#define PLAY2_height 14
+#define PLAY2_ncolors 2
+#define PLAY2_chars_per_pixel 1
+static char *PLAY2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *PLAY2_pixels[] = {
+"bbaaaaaaaabb",
+"bbaaaaaaaabb",
+"aabbaaaabbaa",
+"aabbaaaabbaa",
+"aaaaaaaaaaaa",
+"aaaaaaaaaaaa",
+"aaaabbbbaaaa",
+"aaaabbbbaaaa",
+"aaaabbbbaaaa",
+"aaaabbbbaaaa",
+"bbaaaaaaaabb",
+"bbaaaaaaaabb",
+"bbbbbbbbbbbb",
+"bbbbbbbbbbbb"
+};

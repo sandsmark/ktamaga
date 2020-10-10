@@ -1,0 +1,41 @@
+#define PLAY2_format 1
+#define PLAY2_width 28
+#define PLAY2_height 30
+#define PLAY2_ncolors 2
+#define PLAY2_chars_per_pixel 1
+static char *PLAY2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *PLAY2_pixels[] = {
+"bbbbaaaabbbbbbbbbbaaaabbbbbb",
+"bbbbaaaabbbbbbbbbbaaaabbbbbb",
+"bbaaaaaaaabbbbbbaaaaaaaabbbb",
+"bbaaaaaaaabbbbbbaaaaaaaabbbb",
+"bbaaaaaaaaaaaaaaaaaaaaaabbbb",
+"bbaaaaaaaaaaaaaaaaaaaaaabbbb",
+"bbaaaabbbbbbbbbbbbbbaaaabbbb",
+"bbaaaabbbbbbbbbbbbbbaaaabbbb",
+"bbaabbbbaabbbbbbaabbbbaabbbb",
+"bbaabbbbaabbbbbbaabbbbaabbbb",
+"aabbbbbbbbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbaaaaaabbbbbbbbaabb",
+"aabbbbbbbbaaaaaabbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbbbaabbbb",
+"bbaabbbbbbbbbbbbbbbbbbaabbbb",
+"bbaabbbbaabbbbbbbbbbaabbaabb",
+"bbaabbbbaabbbbbbbbbbaabbaabb",
+"bbbbaaaabbbbbbbbbbbbaaaaaabb",
+"bbbbaaaabbbbbbbbbbbbaaaaaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbaabb",
+"bbbbbbaabbbbbbbbbbbbbbaabbbb",
+"bbbbbbaabbbbbbbbbbbbbbaabbbb",
+"bbbbbbbbaabbaaaaaabbaabbbbbb",
+"bbbbbbbbaabbaaaaaabbaabbbbbb",
+"bbbbbbbbaabbaabbbbaabbbbbbbb",
+"bbbbbbbbaabbaabbbbaabbbbbbbb",
+"bbbbbbbbbbaabbbbbbbbbbbbbbbb",
+"bbbbbbbbbbaabbbbbbbbbbbbbbbb"
+};

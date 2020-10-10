@@ -1,0 +1,46 @@
+CHANGES
+=======
+
+### v0.6
+  - Fixed the status display for discipline
+  - Updated autoconf and automake system
+  - Error at decreasing the discipline fixed
+  - Menubar removed. The popupmenu is now the only one.
+  - Startet with i18n. Made po-file for 'de'.
+
+### v0.5b
+  - fixed compile-error for QT1.44 and Mandrake 7.0
+
+### v0.5a
+  - make install error fixed
+  - burned all GIF's
+
+### v0.5
+  - use autoconf now.
+
+### v0.4b
+  - Compile fix for KDE (thanks to Andreas Scherf and SuSE). They both
+    had this fix.
+  - removed possibility to compile not under KDE due to maintenance reasons.
+
+### v0.4a
+  - Documentation fix
+
+### v0.4
+  - Now the pet advances really
+  - More than one sleep cylce possible
+
+### v0.2
+ - The phases should follow correctly now, not just an incrementation
+ - Now you can't overfeed the pet... kinda ;)
+ - When playing a game, you could cheat, by pressing the arrows fast until
+   you got the right one... whatever... This has been fixed, no more
+   cheating ;)
+ - If you're upgrading from ktamaga 0.0.1 be sure to delete your
+   ~/.tamaga* files!
+ - some bugs fixed, a big one in xTamaga
+ - some more changes... well, should be more enjoyable now, though it's still
+   beta
+
+### v0.0.1
+ - This is the first version released, it's an alpha

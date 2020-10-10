@@ -1,0 +1,17 @@
+#define SICK1_format 1
+#define SICK1_width 16
+#define SICK1_height 6
+#define SICK1_ncolors 2
+#define SICK1_chars_per_pixel 1
+static char *SICK1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SICK1_pixels[] = {
+"bbaaaaaaaaaaaabb",
+"bbaaaaaaaaaaaabb",
+"aabbbbaaaabbbbaa",
+"aabbbbaaaabbbbaa",
+"aaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaa"
+};

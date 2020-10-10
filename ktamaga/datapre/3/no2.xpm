@@ -1,0 +1,33 @@
+#define NO2_format 1
+#define NO2_width 24
+#define NO2_height 22
+#define NO2_ncolors 2
+#define NO2_chars_per_pixel 1
+static char *NO2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *NO2_pixels[] = {
+"bbbbbbaaaaaaaaaaaabbbbbb",
+"bbbbbbaaaaaaaaaaaabbbbbb",
+"bbbbaabbbbbbbbbbbbaabbbb",
+"bbbbaabbbbbbbbbbbbaabbbb",
+"bbaabbbbbbaaaabbbbbbaabb",
+"bbaabbbbbbaaaabbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbaaaaaabb",
+"bbaabbbbbbbbbbbbaaaaaabb",
+"aaaaaabbbbbbbbbbbbbbaaaa",
+"aaaaaabbbbbbbbbbbbbbaaaa",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbaabb",
+"bbbbaabbaaaaaaaabbaabbbb",
+"bbbbaabbaaaaaaaabbaabbbb",
+"bbbbbbaabbbbbbaabbaabbbb",
+"bbbbbbaabbbbbbaabbaabbbb",
+"bbbbbbbbbbbbbbbbaabbbbbb",
+"bbbbbbbbbbbbbbbbaabbbbbb"
+};

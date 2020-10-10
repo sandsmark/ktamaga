@@ -1,0 +1,27 @@
+#define PM_format 1
+#define PM_width 12
+#define PM_height 16
+#define PM_ncolors 2
+#define PM_chars_per_pixel 1
+static char *PM_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *PM_pixels[] = {
+"aaaaaaaaaabb",
+"aaaaaaaaaabb",
+"aaaabbbbbbaa",
+"aaaabbbbbbaa",
+"aaaaaaaaaabb",
+"aaaaaaaaaabb",
+"aaaabbbbbbbb",
+"aaaabbbbbbbb",
+"bbbbbbbbbbbb",
+"bbbbbbbbbbbb",
+"aaaabbaaaaaa",
+"aaaabbaaaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa"
+};

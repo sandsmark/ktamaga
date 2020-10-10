@@ -1,0 +1,25 @@
+#define B0_format 1
+#define B0_width 8
+#define B0_height 14
+#define B0_ncolors 2
+#define B0_chars_per_pixel 1
+static char *B0_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B0_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaabb",
+"bbaaaabb"
+};

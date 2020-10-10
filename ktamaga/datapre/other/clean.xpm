@@ -1,0 +1,42 @@
+#define CHANGE8_format 1
+#define CHANGE8_width 26
+#define CHANGE8_height 32
+#define CHANGE8_ncolors 2
+#define CHANGE8_chars_per_pixel 1
+static char *CHANGE8_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *CHANGE8_pixels[] = {
+"    aaaa      aaaa                ",
+"    aaaa      aaaa                ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"aaaa      aaaa                    ",
+"aaaa      aaaa                    ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"    aaaa      aaaa                ",
+"    aaaa      aaaa                ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"aaaa      aaaa                    ",
+"aaaa      aaaa                    ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"    aaaa      aaaa                ",
+"    aaaa      aaaa                ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"aaaa      aaaa                    ",
+"aaaa      aaaa                    ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"    aaaa      aaaa                ",
+"    aaaa      aaaa                ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  ",
+"aaaa      aaaa                    ",
+"aaaa      aaaa                    ",
+"  aaaa      aaaa                  ",
+"  aaaa      aaaa                  "};

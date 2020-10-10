@@ -1,0 +1,41 @@
+#define UNHAPPY1_format 1
+#define UNHAPPY1_width 46
+#define UNHAPPY1_height 30
+#define UNHAPPY1_ncolors 2
+#define UNHAPPY1_chars_per_pixel 1
+static char *UNHAPPY1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *UNHAPPY1_pixels[] = {
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbaabbbbaabbbbaaaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbaabbbbaabbbbaaaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaabbbbbbaaaaaaaabbbbbbbbbbbbaaaabbbbbb",
+"bbbbaaaaaabbbbbbaaaaaaaabbbbbbbbbbbbaaaabbbbbb",
+"bbaaaabbbbbbbbbbbbbbaaaaaabbbbbbbbbbaaaabbbbbb",
+"bbaaaabbbbbbbbbbbbbbaaaaaabbbbbbbbbbaaaabbbbbb",
+"aabbbbbbbbbbbbbbbbbbbbaaaabbbbbbbbaabbbbbbbbbb",
+"aabbbbbbbbbbbbbbbbbbbbaaaabbbbbbbbaabbbbbbbbbb",
+"aaaaaaaaaaaaaabbbbbbbbaaaabbbbbbbbbbbbbbbbbbbb",
+"aaaaaaaaaaaaaabbbbbbbbaaaabbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbaaaabbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbaaaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbaabbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbaabbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbaabbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbaabbaabbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaabbbbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbb",
+"bbbbbbaabbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbaabbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaabbaaaaaabbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaabbaaaaaabbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaabbaabbaabbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbaabbaabbaabbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbbbbb"
+};

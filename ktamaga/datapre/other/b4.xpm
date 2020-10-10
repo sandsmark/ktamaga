@@ -1,0 +1,25 @@
+#define B4_format 1
+#define B4_width 8
+#define B4_height 14
+#define B4_ncolors 2
+#define B4_chars_per_pixel 1
+static char *B4_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B4_pixels[] = {
+"bbbbaabb",
+"bbbbaabb",
+"bbaaaabb",
+"bbaaaabb",
+"aabbaabb",
+"aabbaabb",
+"aabbaabb",
+"aabbaabb",
+"aabbaabb",
+"aabbaabb",
+"aaaaaaaa",
+"aaaaaaaa",
+"bbbbaabb",
+"bbbbaabb"
+};

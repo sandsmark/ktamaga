@@ -1,0 +1,21 @@
+#define S6_format 1
+#define S6_width 6
+#define S6_height 10
+#define S6_ncolors 2
+#define S6_chars_per_pixel 1
+static char *S6_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S6_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"aabbbb",
+"aabbbb",
+"aaaaaa",
+"aaaaaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa"
+};

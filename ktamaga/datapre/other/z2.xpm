@@ -1,0 +1,27 @@
+#define Z2_format 1
+#define Z2_width 14
+#define Z2_height 16
+#define Z2_ncolors 2
+#define Z2_chars_per_pixel 1
+static char *Z2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *Z2_pixels[] = {
+"bbbbbbbbaaaaaa",
+"bbbbbbbbaaaaaa",
+"bbbbbbbbbbbbaa",
+"bbbbbbbbbbbbaa",
+"bbbbbbbbbbaabb",
+"bbbbbbbbbbaabb",
+"bbbbbbbbaabbbb",
+"bbbbbbbbaabbbb",
+"bbbbaabbaaaaaa",
+"bbbbaabbaaaaaa",
+"aabbbbbbbbbbbb",
+"aabbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb"
+};

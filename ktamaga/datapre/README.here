@@ -1,0 +1,3 @@
+These are the source images.
+Use ../convert to convert them to phase_*.dat files, if they don't
+already exist.

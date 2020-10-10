@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2000-03-14 01:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: tamagadefs.h:25
+msgid ""
+"KTamaga v0.6 was written and is\n" 
+"(C) 1997 by John Zero <johnzero@telnet.hu>\n" 
+"(C) 2000 by Thomas Leineweber <leine@users.sourceforge.net>\n" 
+"This program falls under the GNU GPL license"
+msgstr "KTamaga v0.6 wurde geschrieben und ist\n"
+"(C) 1997 John Zero <johnzero@telnet.hu>\n"
+"(C) 2000 Thomas Leineweber <leine@users.sourceforge.net>\n"
+"Dieses Programm steht unter der GNU GPL."
+
+#: conf.cpp:33
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: conf.cpp:52
+msgid "Loading settings..."
+msgstr "Lade Einstellungen..."
+
+#: conf.cpp:136
+msgid "Sure?"
+msgstr "Sicher?"
+
+#: conf.cpp:137
+msgid "Are you sure you want to reset your tamagotchi?"
+msgstr "Wollen Sie das Tamagotchi wirklich zurücksetzen?"
+
+#: conf.cpp:162
+msgid "Ok"
+msgstr "Ok"
+
+#: conf.cpp:164 confData.cpp:39 tamdata.cpp:65
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: confData.cpp:46
+msgid "Help"
+msgstr "Hilfe"
+
+#: confData.cpp:53 ktamagastat.cpp:134
+msgid "OK"
+msgstr "OK"
+
+#: confData.cpp:59
+msgid "1/2 hour/yr"
+msgstr "1/2 Std/Jahr"
+
+#: confData.cpp:65
+msgid "1 hour/yr"
+msgstr "1 Std/Jahr"
+
+#: confData.cpp:72
+msgid "2 hours/yr"
+msgstr "2 Std/Jahr"
+
+#: confData.cpp:78
+msgid "5 hours/yr"
+msgstr "5 Std/Jahr"
+
+#: confData.cpp:84
+msgid "8 hours/yr"
+msgstr "8 Std/Jahr"
+
+#: confData.cpp:115
+msgid "1 Real Day/yr"
+msgstr "1 echter Tag/Jahr"
+
+#: confData.cpp:122
+msgid "Reset tamagotchi"
+msgstr "Tamagotchi zurücksetzen"
+
+#: confData.cpp:129
+msgid "Debug: advance phase"
+msgstr "Debug: nächste Phase"
+
+#: confData.cpp:136
+msgid "Debug: modify pos's"
+msgstr "Debug: ändere Positionen"
+
+#: confData.cpp:142
+msgid "500 ms/frame"
+msgstr "500 ms/Bild"
+
+#: confData.cpp:149
+msgid "300 ms/frame"
+msgstr "300 ms/Bild"
+
+#: confData.cpp:155
+msgid "200 ms/frame"
+msgstr "200 ms/Bild"
+
+#: confData.cpp:167
+msgid "Sound"
+msgstr "Geräusche"
+
+#: confData.cpp:174
+msgid "LCD speed"
+msgstr "LCD Geschwindigkeit"
+
+#: confData.cpp:184
+msgid "Time scale"
+msgstr "Zeit-Skala"
+
+#: ktamagastat.cpp:60
+msgid "&Configure..."
+msgstr "&Konfigurieren..."
+
+#: ktamagastat.cpp:62
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: ktamagastat.cpp:63
+msgid "&About"
+msgstr "&Über"
+
+#: ktamagastat.cpp:65
+msgid "&Quit"
+msgstr "&Beenden"
+
+#: ktamagastat.cpp:131
+msgid "About"
+msgstr "Über"
+
+#: tamdata.cpp:62
+msgid "Feed the animal"
+msgstr "Füttern"
+
+#: tamdata.cpp:62
+msgid "Turn on/off the lights"
+msgstr "Licht ein/aus"
+
+#: tamdata.cpp:62
+msgid "Play"
+msgstr "Spielen"
+
+#: tamdata.cpp:62
+msgid "Cure"
+msgstr "Medizin"
+
+#: tamdata.cpp:63
+msgid "Flush the toilet"
+msgstr "Toilettenspülung"
+
+#: tamdata.cpp:63
+msgid "Display status"
+msgstr "Statusanzeige"
+
+#: tamdata.cpp:63
+msgid "Discipline"
+msgstr "Disziplinieren"
+
+#: tamdata.cpp:63
+msgid "Attention"
+msgstr "Achtung"
+
+#: tamdata.cpp:64
+msgid "Attention needed!"
+msgstr "Achtung!"
+
+#: tamdata.cpp:65
+msgid "Give a meal"
+msgstr "Komplette Mahlzeit"
+
+#: tamdata.cpp:65
+msgid "Give a snack"
+msgstr "Kleiner Snack"
+
+#: tamdata.cpp:65
+msgid "(nothing)"
+msgstr "(nichts)"
+
+#: tamdata.cpp:66
+msgid "Will he turn left?"
+msgstr "Schaut es nach links?"
+
+#: tamdata.cpp:66
+msgid "Will he turn right?"
+msgstr "Schaut es nach rechts?"
+
+#: tamdata.cpp:
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: tamdata.cpp:
+msgid "Prev frame"
+msgstr "vorheriger Frame"
+
+#: tamdata.cpp:
+msgid "Next frame"
+msgstr "nächster Frame"
+
+#: tamdata.cpp:
+msgid "Left"
+msgstr "Links"
+
+#: tamdata.cpp:
+msgid "Up"
+msgstr "Oben"
+
+#: tamdata.cpp:
+msgid "Down"
+msgstr "Unten"
+
+#: tamdata.cpp:
+msgid "Right"
+msgstr "Rechts"

@@ -1,0 +1,25 @@
+#define HEART1_format 1
+#define HEART1_width 14
+#define HEART1_height 14
+#define HEART1_ncolors 2
+#define HEART1_chars_per_pixel 1
+static char *HEART1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *HEART1_pixels[] = {
+"bbaaaabbaaaabb",
+"bbaaaabbaaaabb",
+"aabbbbaabbbbaa",
+"aabbbbaabbbbaa",
+"aabbbbbbbbbbaa",
+"aabbbbbbbbbbaa",
+"aabbbbbbbbbbaa",
+"aabbbbbbbbbbaa",
+"bbaabbbbbbaabb",
+"bbaabbbbbbaabb",
+"bbbbaabbaabbbb",
+"bbbbaabbaabbbb",
+"bbbbbbaabbbbbb",
+"bbbbbbaabbbbbb"
+};

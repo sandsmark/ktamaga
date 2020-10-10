@@ -1,0 +1,25 @@
+#define B2_format 1
+#define B2_width 8
+#define B2_height 14
+#define B2_ncolors 2
+#define B2_chars_per_pixel 1
+static char *B2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B2_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbaabb",
+"bbbbaabb",
+"bbaabbbb",
+"bbaabbbb",
+"aabbbbbb",
+"aabbbbbb",
+"aaaaaaaa",
+"aaaaaaaa"
+};

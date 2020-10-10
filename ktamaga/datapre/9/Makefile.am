@@ -1,0 +1,1 @@
+EXTRA_DIST =1.xpm eat1.xpm    mess1.xpm  play1.xpm  sleep1.xpm  unhappy1.xpm  unhappy5.xpm 2.xpm  eat2.xpm    mess2.xpm  play2.xpm  sleep2.xpm  unhappy2.xpm  unhappy6.xpm 3.xpm  happy1.xpm  no1.xpm    sick1.xpm  turn1.xpm   unhappy3.xpm 4.xpm  happy2.xpm  no2.xpm    sick2.xpm  turn2.xpm   unhappy4.xpm

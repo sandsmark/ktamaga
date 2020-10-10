@@ -1,0 +1,21 @@
+#define S3_format 1
+#define S3_width 6
+#define S3_height 10
+#define S3_ncolors 2
+#define S3_chars_per_pixel 1
+static char *S3_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S3_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"aaaaaa",
+"aaaaaa"
+};

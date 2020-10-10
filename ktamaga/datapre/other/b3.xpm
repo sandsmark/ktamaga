@@ -1,0 +1,25 @@
+#define B3_format 1
+#define B3_width 8
+#define B3_height 14
+#define B3_ncolors 2
+#define B3_chars_per_pixel 1
+static char *B3_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B3_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbaaaabb",
+"bbaaaabb",
+"bbbbbbaa",
+"bbbbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaabb",
+"bbaaaabb"
+};

@@ -1,0 +1,21 @@
+#define S8_format 1
+#define S8_width 6
+#define S8_height 10
+#define S8_ncolors 2
+#define S8_chars_per_pixel 1
+static char *S8_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S8_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa"
+};

@@ -1,0 +1,39 @@
+#define TURN1_format 1
+#define TURN1_width 30
+#define TURN1_height 28
+#define TURN1_ncolors 2
+#define TURN1_chars_per_pixel 1
+static char *TURN1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *TURN1_pixels[] = {
+"bbbbbbbbbbaaaaaaaaaaaabbbbbbbb",
+"bbbbbbbbbbaaaaaaaaaaaabbbbbbbb",
+"bbbbbbbbaabbbbaabbbbaaaabbbbbb",
+"bbbbbbbbaabbbbaabbbbaaaabbbbbb",
+"bbbbbbaabbaabbbbbbaabbaaaabbbb",
+"bbbbbbaabbaabbbbbbaabbaaaabbbb",
+"bbbbaaaabbbbbbbbbbbbbbaaaaaabb",
+"bbbbaaaabbbbbbbbbbbbbbaaaaaabb",
+"bbaabbbbbbbbbbbbbbaabbbbaaaabb",
+"bbaabbbbbbbbbbbbbbaabbbbaaaabb",
+"bbaaaaaaaaaaaaaaaabbbbbbaaaabb",
+"bbaaaaaaaaaaaaaaaabbbbbbaaaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbaaaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbaaaabb",
+"bbbbbbaabbbbbbbbaabbaabbbbaabb",
+"bbbbbbaabbbbbbbbaabbaabbbbaabb",
+"bbbbbbaabbbbbbbbaabbaabbbbaabb",
+"bbbbbbaabbbbbbbbaabbaabbbbaabb",
+"bbbbbbaabbbbbbbbbbaabbbbbbaabb",
+"bbbbbbaabbbbbbbbbbaabbbbbbaabb",
+"bbbbbbbbaabbbbbbbbbbbbbbaabbbb",
+"bbbbbbbbaabbbbbbbbbbbbbbaabbbb",
+"bbbbbbbbbbaabbaaaaaabbaabbbbbb",
+"bbbbbbbbbbaabbaaaaaabbaabbbbbb",
+"bbbbbbbbbbaabbaabbaabbaabbbbbb",
+"bbbbbbbbbbaabbaabbaabbaabbbbbb",
+"bbbbbbbbbbbbaabbbbbbaabbbbbbbb",
+"bbbbbbbbbbbbaabbbbbbaabbbbbbbb"
+};

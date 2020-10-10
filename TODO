@@ -1,0 +1,12 @@
+
+TODO
+====
+ 
+ I need a detailed description of when the pet dies. It just cannot
+ die yet. 
+ More l10n.
+ Translation of the documentation.
+ Move to QT2 and KDE2.
+ Main scheduler engine, phase changes.
+ Die when starving...
+ Much more...

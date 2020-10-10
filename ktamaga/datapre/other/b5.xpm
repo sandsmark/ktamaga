@@ -1,0 +1,25 @@
+#define B5_format 1
+#define B5_width 8
+#define B5_height 14
+#define B5_ncolors 2
+#define B5_chars_per_pixel 1
+static char *B5_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B5_pixels[] = {
+"aaaaaaaa",
+"aaaaaaaa",
+"aabbbbbb",
+"aabbbbbb",
+"aabbbbbb",
+"aabbbbbb",
+"aaaaaabb",
+"aaaaaabb",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"aaaaaabb",
+"aaaaaabb"
+};

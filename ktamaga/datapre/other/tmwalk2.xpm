@@ -1,0 +1,21 @@
+#define TMWALK2_format 1
+#define TMWALK2_width 6
+#define TMWALK2_height 10
+#define TMWALK2_ncolors 2
+#define TMWALK2_chars_per_pixel 1
+static char *TMWALK2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *TMWALK2_pixels[] = {
+"aabbbb",
+"aabbbb",
+"bbaabb",
+"bbaabb",
+"bbbbaa",
+"bbbbaa",
+"bbaabb",
+"bbaabb",
+"aabbbb",
+"aabbbb"
+};

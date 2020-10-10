@@ -1,0 +1,33 @@
+#define EAT1_format 1
+#define EAT1_width 26
+#define EAT1_height 22
+#define EAT1_ncolors 2
+#define EAT1_chars_per_pixel 1
+static char *EAT1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *EAT1_pixels[] = {
+"bbaaaaaaaaaaaaaaaaaabbbbbb",
+"bbaaaaaaaaaaaaaaaaaabbbbbb",
+"aabbbbbbbbbbaabbbbbbaabbbb",
+"aabbbbbbbbbbaabbbbbbaabbbb",
+"bbaaaaaabbbbbbbbbbbbbbaabb",
+"bbaaaaaabbbbbbbbbbbbbbaabb",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbaabbbbaa",
+"bbaaaaaabbbbbbbbbbaabbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"bbaaaaaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaa",
+"bbbbbbbbaabbbbbbbbbbbbaabb",
+"bbbbbbbbaabbbbbbbbbbbbaabb",
+"bbbbbbbbbbaaaaaaaaaaaabbbb",
+"bbbbbbbbbbaaaaaaaaaaaabbbb"
+};

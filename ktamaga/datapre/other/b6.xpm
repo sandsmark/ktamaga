@@ -1,0 +1,25 @@
+#define B6_format 1
+#define B6_width 8
+#define B6_height 14
+#define B6_ncolors 2
+#define B6_chars_per_pixel 1
+static char *B6_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B6_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbbb",
+"aabbbbbb",
+"aaaaaabb",
+"aaaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaabb",
+"bbaaaabb"
+};

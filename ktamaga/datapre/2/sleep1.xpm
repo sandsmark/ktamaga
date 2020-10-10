@@ -1,0 +1,29 @@
+#define SLEEP1_format 1
+#define SLEEP1_width 20
+#define SLEEP1_height 18
+#define SLEEP1_ncolors 2
+#define SLEEP1_chars_per_pixel 1
+static char *SLEEP1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SLEEP1_pixels[] = {
+"bbbbaaaaaaaaaaaabbbb",
+"bbbbaaaaaaaaaaaabbbb",
+"bbaabbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbaabb",
+"aabbaaaabbbbaaaabbaa",
+"aabbaaaabbbbaaaabbaa",
+"aabbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbaa",
+"aabbbbbbaaaabbbbbbaa",
+"aabbbbbbaaaabbbbbbaa",
+"aabbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbaa",
+"bbaabbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbaabb",
+"bbbbaaaaaaaaaaaabbbb",
+"bbbbaaaaaaaaaaaabbbb",
+"bbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbb"
+};

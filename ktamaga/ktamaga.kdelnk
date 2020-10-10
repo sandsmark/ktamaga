@@ -1,0 +1,12 @@
+# KDE Config File  
+[KDE Desktop Entry]
+Type=Application
+Exec=ktamaga 
+Icon=ktamaga.xpm
+MiniIcon=ktamaga.xpm
+DocPath=ktamaga/index.html
+Comment=
+Comment[de]=
+Terminal=0
+Name=Ktamaga
+Name[de]=Ktamaga

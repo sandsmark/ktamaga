@@ -1,0 +1,21 @@
+#define S9_format 1
+#define S9_width 6
+#define S9_height 10
+#define S9_ncolors 2
+#define S9_chars_per_pixel 1
+static char *S9_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S9_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"aaaaaa",
+"aaaaaa"
+};

@@ -1,0 +1,21 @@
+#define S2_format 1
+#define S2_width 6
+#define S2_height 10
+#define S2_ncolors 2
+#define S2_chars_per_pixel 1
+static char *S2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S2_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"aaaaaa",
+"aaaaaa",
+"aabbbb",
+"aabbbb",
+"aaaaaa",
+"aaaaaa"
+};

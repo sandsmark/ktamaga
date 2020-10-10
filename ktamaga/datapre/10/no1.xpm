@@ -1,0 +1,41 @@
+#define NO1_format 1
+#define NO1_width 30
+#define NO1_height 30
+#define NO1_ncolors 2
+#define NO1_chars_per_pixel 1
+static char *NO1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *NO1_pixels[] = {
+"bbbbbbbbaaaaaaaaaaaaaabbbbbbbb",
+"bbbbbbbbaaaaaaaaaaaaaabbbbbbbb",
+"bbbbbbaabbbbbbbbbbaaaaaabbbbbb",
+"bbbbbbaabbbbbbbbbbaaaaaabbbbbb",
+"bbbbaabbaaaabbbbbbbbaaaaaabbbb",
+"bbbbaabbaaaabbbbbbbbaaaaaabbbb",
+"aaaaaaaaaaaaaabbaaaabbaaaabbbb",
+"aaaaaaaaaaaaaabbaaaabbaaaabbbb",
+"aabbbbbbbbbbaabbbbbbbbbbaabbbb",
+"aabbbbbbbbbbaabbbbbbbbbbaabbbb",
+"aaaaaaaaaaaaaabbbbbbbbbbaabbbb",
+"aaaaaaaaaaaaaabbbbbbbbbbaabbbb",
+"aabbbbbbbbaabbbbbbbbbbbbaabbbb",
+"aabbbbbbbbaabbbbbbbbbbbbaabbbb",
+"aaaaaaaaaaaabbbbbbbbbbbbaabbbb",
+"aaaaaaaaaaaabbbbbbbbbbbbaabbbb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbbbaabbbbbbbbbbbbbbbbaabbbb",
+"bbbbbbaabbbbbbbbbbbbbbbbaabbbb",
+"bbbbbbbbaabbbbbbbbbbbbaabbaaaa",
+"bbbbbbbbaabbbbbbbbbbbbaabbaaaa",
+"bbbbaaaabbaaaaaaaaaaaabbbbbbaa",
+"bbbbaaaabbaaaaaaaaaaaabbbbbbaa",
+"bbaabbbbbbbbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbbbbbbbbbbbaabb",
+"aaaaaabbbbbbbbbbbbbbbbbbaaaaaa",
+"aaaaaabbbbbbbbbbbbbbbbbbaaaaaa"
+};

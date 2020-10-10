@@ -1,0 +1,21 @@
+#define S0_format 1
+#define S0_width 6
+#define S0_height 10
+#define S0_ncolors 2
+#define S0_chars_per_pixel 1
+static char *S0_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S0_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa"
+};

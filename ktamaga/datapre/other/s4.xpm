@@ -1,0 +1,21 @@
+#define S4_format 1
+#define S4_width 6
+#define S4_height 10
+#define S4_ncolors 2
+#define S4_chars_per_pixel 1
+static char *S4_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S4_pixels[] = {
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aabbaa",
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"bbbbaa",
+"bbbbaa"
+};

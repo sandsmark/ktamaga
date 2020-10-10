@@ -1,0 +1,27 @@
+#define UNHAPPY3_format 1
+#define UNHAPPY3_width 32
+#define UNHAPPY3_height 16
+#define UNHAPPY3_ncolors 2
+#define UNHAPPY3_chars_per_pixel 1
+static char *UNHAPPY3_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *UNHAPPY3_pixels[] = {
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbaaaabbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbaaaabbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbaaaabbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbaaaabbbbbb",
+"bbbbaaaaaaaabbbbbbbbaabbbbbbbbbb",
+"bbbbaaaaaaaabbbbbbbbaabbbbbbbbbb",
+"bbaabbaaaabbaabbbbbbbbbbbbbbbbbb",
+"bbaabbaaaabbaabbbbbbbbbbbbbbbbbb",
+"aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb",
+"aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb"
+};

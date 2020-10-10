@@ -1,0 +1,41 @@
+#define SICK2_format 1
+#define SICK2_width 30
+#define SICK2_height 30
+#define SICK2_ncolors 2
+#define SICK2_chars_per_pixel 1
+static char *SICK2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SICK2_pixels[] = {
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaaaaaaaaaaaaaabbbbbb",
+"bbbbaaaaaaaaaaaaaaaaaaaabbbbbb",
+"bbaabbbbbbbbbbbbbbbbbbbbaaaabb",
+"bbaabbbbbbbbbbbbbbbbbbbbaaaabb",
+"bbaabbbbaaaaaaaaaaaaaabbbbbbaa",
+"bbaabbbbaaaaaaaaaaaaaabbbbbbaa",
+"bbaabbaabbbbbbaabbbbbbaabbbbaa",
+"bbaabbaabbbbbbaabbbbbbaabbbbaa",
+"bbbbaabbbbbbbbbbaaaaaabbaaaabb",
+"bbbbaabbbbbbbbbbaaaaaabbaaaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbbbaa",
+"bbbbaabbbbbbbbbbbbbbbbbbbbbbaa",
+"bbaaaaaaaaaabbbbaaaabbbbbbbbaa",
+"bbaaaaaaaaaabbbbaaaabbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbbbaabb",
+"aaaaaaaabbbbbbbbbbbbbbbbbbaabb",
+"aaaaaaaabbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbbbbbbbbbbbbbbbbbbbaabb",
+"bbbbaabbaaaaaaaaaabbbbbbbbaabb",
+"bbbbaabbaaaaaaaaaabbbbbbbbaabb",
+"bbaabbaaaabbbbbbbbaabbbbaabbaa",
+"bbaabbaaaabbbbbbbbaabbbbaabbaa",
+"bbbbaabbaabbaabbbbbbaaaabbaabb",
+"bbbbaabbaabbaabbbbbbaaaabbaabb",
+"bbaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+"bbaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+};

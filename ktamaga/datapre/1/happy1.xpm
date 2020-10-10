@@ -1,0 +1,27 @@
+#define HAPPY1_format 1
+#define HAPPY1_width 32
+#define HAPPY1_height 16
+#define HAPPY1_ncolors 2
+#define HAPPY1_chars_per_pixel 1
+static char *HAPPY1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *HAPPY1_pixels[] = {
+"bbbbaaaaaaaabbbbbbbbbbaabbbbbbbb",
+"bbbbaaaaaaaabbbbbbbbbbaabbbbbbbb",
+"bbaabbaaaabbaabbbbaabbbbbbbbaabb",
+"bbaabbaaaabbaabbbbaabbbbbbbbaabb",
+"bbaaaaaaaaaaaabbbbbbbbaaaabbbbbb",
+"bbaaaaaaaaaaaabbbbbbbbaaaabbbbbb",
+"bbaaaabbbbaaaabbaabbaabbbbaabbbb",
+"bbaaaabbbbaaaabbaabbaabbbbaabbbb",
+"bbaaaabbbbaaaabbbbbbaabbbbaabbaa",
+"bbaaaabbbbaaaabbbbbbaabbbbaabbaa",
+"bbbbaaaaaaaabbbbbbbbbbaaaabbbbbb",
+"bbbbaaaaaaaabbbbbbbbbbaaaabbbbbb",
+"bbbbbbbbbbbbbbbbbbaabbbbbbbbaabb",
+"bbbbbbbbbbbbbbbbbbaabbbbbbbbaabb",
+"bbbbbbbbbbbbbbbbbbbbbbaabbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbaabbbbbbbb"
+};

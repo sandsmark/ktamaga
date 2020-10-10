@@ -1,0 +1,25 @@
+#define B8_format 1
+#define B8_width 8
+#define B8_height 14
+#define B8_ncolors 2
+#define B8_chars_per_pixel 1
+static char *B8_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B8_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaabb",
+"bbaaaabb"
+};

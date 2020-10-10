@@ -1,0 +1,21 @@
+#define S5_format 1
+#define S5_width 6
+#define S5_height 10
+#define S5_ncolors 2
+#define S5_chars_per_pixel 1
+static char *S5_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *S5_pixels[] = {
+"aaaaaa",
+"aaaaaa",
+"aabbbb",
+"aabbbb",
+"aaaaaa",
+"aaaaaa",
+"bbbbaa",
+"bbbbaa",
+"aaaaaa",
+"aaaaaa"
+};

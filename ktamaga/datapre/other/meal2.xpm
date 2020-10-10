@@ -1,0 +1,41 @@
+#define MEAL2_format 1
+#define MEAL2_width 16
+#define MEAL2_height 30
+#define MEAL2_ncolors 2
+#define MEAL2_chars_per_pixel 1
+static char *MEAL2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *MEAL2_pixels[] = {
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"bbaaaaaaaaaaaabb",
+"bbaaaaaaaaaaaabb",
+"aabbbbbbbbaabbaa",
+"aabbbbbbbbaabbaa",
+"aabbbbbbbbaabbaa",
+"aabbbbbbbbaabbaa",
+"bbaabbbbaabbaabb",
+"bbaabbbbaabbaabb",
+"bbaabbbbaabbaabb",
+"bbaabbbbaabbaabb",
+"bbaabbbbaabbaabb",
+"bbaabbbbaabbaabb",
+"bbaaaaaaaaaaaabb",
+"bbaaaaaaaaaaaabb"
+};

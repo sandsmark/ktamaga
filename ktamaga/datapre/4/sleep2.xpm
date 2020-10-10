@@ -1,0 +1,33 @@
+#define SLEEP2_format 1
+#define SLEEP2_width 26
+#define SLEEP2_height 22
+#define SLEEP2_ncolors 2
+#define SLEEP2_chars_per_pixel 1
+static char *SLEEP2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SLEEP2_pixels[] = {
+"bbbbbbaaaaaaaaaabbbbbbbbbb",
+"bbbbbbaaaaaaaaaabbbbbbbbbb",
+"bbbbaabbbbbbbbbbaabbbbbbbb",
+"bbbbaabbbbbbbbbbaabbbbbbbb",
+"bbaabbaaaabbaaaabbaaaaaabb",
+"bbaabbaaaabbaaaabbaaaaaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbaaaaaabb",
+"aabbbbbbbbbbbbbbbbaaaaaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbbbbbaaaaaabb",
+"aabbbbbbbbbbbbbbbbaaaaaabb",
+"aabbbbbbbbbbbbbbbbaabbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbb",
+"bbaabbbbbbbbbbbbaabbbbbbbb",
+"bbaabbbbbbbbbbbbaabbbbbbbb",
+"bbbbaaaaaaaaaaaabbbbbbbbbb",
+"bbbbaaaaaaaaaaaabbbbbbbbbb"
+};

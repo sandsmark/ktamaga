@@ -1,0 +1,29 @@
+#define 2_format 1
+#define 2_width 22
+#define 2_height 18
+#define 2_ncolors 2
+#define 2_chars_per_pixel 1
+static char *2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *2_pixels[] = {
+"bbbbaaaaaaaaaaaabbbbbb",
+"bbbbaaaaaaaaaaaabbbbbb",
+"bbaabbbbbbbbbbbbaabbbb",
+"bbaabbbbbbbbbbbbaabbbb",
+"aabbbbaabbbbaabbbbaabb",
+"aabbbbaabbbbaabbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbaaaabbbbbbaabb",
+"aabbbbbbaaaabbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabb",
+"bbaabbbbbbbbbbbbaabbbb",
+"bbaabbbbbbbbbbbbaabbbb",
+"bbbbaaaaaaaaaaaabbbbbb",
+"bbbbaaaaaaaaaaaabbbbbb"
+};

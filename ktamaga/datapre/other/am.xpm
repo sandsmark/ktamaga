@@ -1,0 +1,27 @@
+#define AM_format 1
+#define AM_width 12
+#define AM_height 16
+#define AM_ncolors 2
+#define AM_chars_per_pixel 1
+static char *AM_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *AM_pixels[] = {
+"aaaaaaaaaabb",
+"aaaaaaaaaabb",
+"aabbbbbbaaaa",
+"aabbbbbbaaaa",
+"aaaaaaaaaaaa",
+"aaaaaaaaaaaa",
+"aabbbbbbaaaa",
+"aabbbbbbaaaa",
+"bbbbbbbbbbbb",
+"bbbbbbbbbbbb",
+"aaaabbaaaaaa",
+"aaaabbaaaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa",
+"aabbaabbaaaa"
+};

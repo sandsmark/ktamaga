@@ -1,0 +1,17 @@
+#define SLEEP1_format 1
+#define SLEEP1_width 18
+#define SLEEP1_height 6
+#define SLEEP1_ncolors 2
+#define SLEEP1_chars_per_pixel 1
+static char *SLEEP1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *SLEEP1_pixels[] = {
+"bbbbaaaaaaaaaaaabb",
+"bbbbaaaaaaaaaaaabb",
+"bbaabbbbaaaabbbbaa",
+"bbaabbbbaaaabbbbaa",
+"bbaaaaaaaaaaaaaaaa",
+"bbaaaaaaaaaaaaaaaa"
+};

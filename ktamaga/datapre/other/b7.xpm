@@ -1,0 +1,25 @@
+#define B7_format 1
+#define B7_width 8
+#define B7_height 14
+#define B7_ncolors 2
+#define B7_chars_per_pixel 1
+static char *B7_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B7_pixels[] = {
+"aaaaaaaa",
+"aaaaaaaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbaabb",
+"bbbbaabb",
+"bbbbaabb",
+"bbbbaabb",
+"bbbbaabb",
+"bbbbaabb"
+};

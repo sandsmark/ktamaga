@@ -1,0 +1,25 @@
+#define B9_format 1
+#define B9_width 8
+#define B9_height 14
+#define B9_ncolors 2
+#define B9_chars_per_pixel 1
+static char *B9_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *B9_pixels[] = {
+"bbaaaabb",
+"bbaaaabb",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"aabbbbaa",
+"bbaaaaaa",
+"bbaaaaaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbbbbbaa",
+"bbaaaabb",
+"bbaaaabb"
+};

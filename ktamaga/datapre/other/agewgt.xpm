@@ -1,0 +1,42 @@
+#define B8_format 1
+#define B8_width 64
+#define B8_height 32
+#define B8_ncolors 2
+#define B8_chars_per_pixel 1
+static char *B8_colors[] = {
+"a", "#000000",
+" ", "#ffffff"
+};
+static char *B8_pixels[] = {
+"                                                                ",
+"                                                                ",
+"    aaaaaaaa                                                    ",
+"    aaaaaaaa                                                    ",
+"  aa  aaaa  aa                              aa  aa  aa  aa      ",
+"  aa  aaaa  aa                              aa  aa  aa  aa      ",
+"  aaaaaaaaaaaa                              aa  aa  aaaa        ",
+"  aaaaaaaaaaaa                              aa  aa  aaaa        ",
+"  aaaa    aaaa                                aaaa  aa          ",
+"  aaaa    aaaa                                aaaa  aa          ",
+"    aaaaaaaa                                    aa  aa          ",
+"    aaaaaaaa                                    aa  aa          ",
+"                                            aaaa                ",
+"                                            aaaa                ",
+"                                                                ",
+"                                                                ",
+"  aa          aa                                                ",
+"  aa          aa                                                ",
+"  aa          aa                            aaaaaa  aaaaaa      ",
+"  aa          aa                            aaaaaa  aaaaaa      ",
+"  aaaaaaaaaaaaaa                            aa  aa      aa      ",
+"  aaaaaaaaaaaaaa                            aa  aa      aa      ",
+"        aa                                  aa  aa    aa        ",
+"        aa                                  aa  aa    aa        ",
+"    aaaaaaaaaa                              aa  aa    aa        ",
+"    aaaaaaaaaa                              aa  aa    aa        ",
+"    aa      aa                              aa  aa  aa          ",
+"    aa      aa                              aa  aa  aa          ",
+"    aa  aa  aa                              aaaaaa  aaaaaa      ",
+"    aa  aa  aa                              aaaaaa  aaaaaa      ",
+"  aaaaaaaaaaaaaa                                                ",
+"  aaaaaaaaaaaaaa                                                "};

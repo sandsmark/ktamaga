@@ -1,0 +1,27 @@
+#define MESS1_format 1
+#define MESS1_width 16
+#define MESS1_height 16
+#define MESS1_ncolors 2
+#define MESS1_chars_per_pixel 1
+static char *MESS1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *MESS1_pixels[] = {
+"bbbbbbbbbbbbbbaa",
+"bbbbbbbbbbbbbbaa",
+"bbaabbbbbbbbaabb",
+"bbaabbbbbbbbaabb",
+"aabbbbbbbbbbbbaa",
+"aabbbbbbbbbbbbaa",
+"bbaabbaabbbbbbbb",
+"bbaabbaabbbbbbbb",
+"bbbbbbaaaabbbbbb",
+"bbbbbbaaaabbbbbb",
+"bbbbaaaabbaabbbb",
+"bbbbaaaabbaabbbb",
+"bbaaaaaaaabbaabb",
+"bbaaaaaaaabbaabb",
+"bbaaaaaaaaaaaabb",
+"bbaaaaaaaaaaaabb"
+};

@@ -1,0 +1,33 @@
+#define HAPPY2_format 1
+#define HAPPY2_width 42
+#define HAPPY2_height 22
+#define HAPPY2_ncolors 2
+#define HAPPY2_chars_per_pixel 1
+static char *HAPPY2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *HAPPY2_pixels[] = {
+"bbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbaabbbbbbbb",
+"bbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbaabbbbbbbb",
+"bbaabbaabbbbaabbaabbbbbbbbbbaabbbbbbbbaabb",
+"bbaabbaabbbbaabbaabbbbbbbbbbaabbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbaabbbbbbbbbbbbaaaabbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbbbbbbbbaaaabbbbbb",
+"aabbaabbbbbbbbaabbaabbbbbbaabbaabbbbaabbbb",
+"aabbaabbbbbbbbaabbaabbbbbbaabbaabbbbaabbbb",
+"aabbaaaaaaaaaaaabbaabbbbbbbbbbaabbbbaabbaa",
+"aabbaaaaaaaaaaaabbaabbbbbbbbbbaabbbbaabbaa",
+"aabbaaaaaaaaaaaabbaabbbbbbbbbbbbaaaabbbbbb",
+"aabbaaaaaaaaaaaabbaabbbbbbbbbbbbaaaabbbbbb",
+"aabbaaaaaaaaaaaabbaabbbbbbbbaabbbbbbbbaabb",
+"aabbaaaaaaaaaaaabbaabbbbbbbbaabbbbbbbbaabb",
+"aabbbbaaaaaaaabbbbaabbbbbbbbbbbbbbaabbbbbb",
+"aabbbbaaaaaaaabbbbaabbbbbbbbbbbbbbaabbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbb",
+"aabbbbbbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbaabbbbbbbbbbbbaabbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbb"
+};

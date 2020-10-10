@@ -1,0 +1,27 @@
+#define UNHAPPY2_format 1
+#define UNHAPPY2_width 32
+#define UNHAPPY2_height 16
+#define UNHAPPY2_ncolors 2
+#define UNHAPPY2_chars_per_pixel 1
+static char *UNHAPPY2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *UNHAPPY2_pixels[] = {
+"bbaaaaaaaaaaaabbbbbbbbbbaaaabbbb",
+"bbaaaaaaaaaaaabbbbbbbbbbaaaabbbb",
+"aabbaaaaaaaabbaabbbbbbbbaaaaaaaa",
+"aabbaaaaaaaabbaabbbbbbbbaaaaaaaa",
+"aaaabbaaaabbaaaabbbbbbaaaaaaaaaa",
+"aaaabbaaaabbaaaabbbbbbaaaaaaaaaa",
+"aaaaaaaaaaaaaaaabbbbbbaaaaaaaabb",
+"aaaaaaaaaaaaaaaabbbbbbaaaaaaaabb",
+"bbaaaabbbbaaaabbbbbbbbbbbbaaaabb",
+"bbaaaabbbbaaaabbbbbbbbbbbbaaaabb",
+"bbaaaabbbbaaaabbbbbbbbbbbbbbbbbb",
+"bbaaaabbbbaaaabbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaabbbbbbaabbbbbbbbbbbb",
+"bbbbaaaaaaaabbbbbbaabbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+};

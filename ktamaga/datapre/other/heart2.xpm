@@ -1,0 +1,25 @@
+#define HEART2_format 1
+#define HEART2_width 14
+#define HEART2_height 14
+#define HEART2_ncolors 2
+#define HEART2_chars_per_pixel 1
+static char *HEART2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *HEART2_pixels[] = {
+"bbaaaabbaaaabb",
+"bbaaaabbaaaabb",
+"aaaaaaaaaaaaaa",
+"aabbaaaaaaaaaa",
+"aabbaaaaaaaaaa",
+"aabbaaaaaaaaaa",
+"aabbaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"bbaaaaaaaaaabb",
+"bbaaaaaaaaaabb",
+"bbbbaaaaaabbbb",
+"bbbbaaaaaabbbb",
+"bbbbbbaabbbbbb",
+"bbbbbbaabbbbbb"
+};

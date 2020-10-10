@@ -1,0 +1,27 @@
+#define HAPPY2_format 1
+#define HAPPY2_width 32
+#define HAPPY2_height 16
+#define HAPPY2_ncolors 2
+#define HAPPY2_chars_per_pixel 1
+static char *HAPPY2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *HAPPY2_pixels[] = {
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaabbbbbbbbbbbbbbbbbbbb",
+"bbbbaaaaaaaabbbbbbbbbbbbbbbbbbbb",
+"bbaabbaaaabbaabbbbbbbbbbbbbbbbbb",
+"bbaabbaaaabbaabbbbbbbbbbbbbbbbbb",
+"aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb",
+"aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb"
+};

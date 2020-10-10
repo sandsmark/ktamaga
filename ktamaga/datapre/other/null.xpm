@@ -1,0 +1,15 @@
+#define NULL_format 1
+#define NULL_width 2
+#define NULL_height 4
+#define NULL_ncolors 2
+#define NULL_chars_per_pixel 1
+static char *NULL_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *NULL_pixels[] = {
+"bb",
+"bb",
+"bb",
+"bb"
+};

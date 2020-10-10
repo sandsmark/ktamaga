@@ -1,0 +1,27 @@
+#define Z1_format 1
+#define Z1_width 14
+#define Z1_height 16
+#define Z1_ncolors 2
+#define Z1_chars_per_pixel 1
+static char *Z1_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *Z1_pixels[] = {
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbb",
+"bbaaaaaaaabbbb",
+"bbaaaaaaaabbbb",
+"bbbbbbbbaabbbb",
+"bbbbbbbbaabbbb",
+"bbbbbbaabbbbbb",
+"bbbbbbaabbbbbb",
+"bbbbaabbbbbbbb",
+"bbbbaabbbbbbbb",
+"bbaabbbbbbbbbb",
+"bbaabbbbbbbbbb",
+"bbaaaaaaaabbbb",
+"bbaaaaaaaabbbb"
+};

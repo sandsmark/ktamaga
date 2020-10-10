@@ -1,0 +1,39 @@
+#define 2_format 1
+#define 2_width 28
+#define 2_height 28
+#define 2_ncolors 2
+#define 2_chars_per_pixel 1
+static char *2_colors[] = {
+"a", "#000000",
+"b", "#ffffff"
+};
+static char *2_pixels[] = {
+"bbaabbbbaaaaaaaaaaaabbbbbbbb",
+"bbaabbbbaaaaaaaaaaaabbbbbbbb",
+"aabbaaaabbaabbbbbbbbaabbbbbb",
+"aabbaaaabbaabbbbbbbbaabbbbbb",
+"aabbbbbbbbbbbbbbaabbbbaabbbb",
+"aabbbbbbbbbbbbbbaabbbbaabbbb",
+"bbaaaaaabbbbbbbbbbbbbbbbaabb",
+"bbaaaaaabbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaabb",
+"aabbbbbbbbbbbbbbbbbbbbbbaabb",
+"aabbaaaabbbbbbbbbbbbbbbbaabb",
+"aabbaaaabbbbbbbbbbbbbbbbaabb",
+"bbaabbaabbbbbbbbbbbbbbbbaabb",
+"bbaabbaabbbbbbbbbbbbbbbbaabb",
+"bbbbbbaabbbbbbbbaabbaabbbbaa",
+"bbbbbbaabbbbbbbbaabbaabbbbaa",
+"bbbbbbaabbbbbbbbbbaabbbbbbaa",
+"bbbbbbaabbbbbbbbbbaabbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbbbaa",
+"bbbbbbaabbbbbbbbbbbbbbbbaabb",
+"bbbbbbaabbbbbbbbbbbbbbbbaabb",
+"bbbbbbbbaabbaaaabbaaaaaabbbb",
+"bbbbbbbbaabbaaaabbaaaaaabbbb",
+"bbbbbbbbaabbaaaabbaabbbbbbbb",
+"bbbbbbbbaabbaaaabbaabbbbbbbb",
+"bbbbbbbbbbaabbbbaabbbbbbbbbb",
+"bbbbbbbbbbaabbbbaabbbbbbbbbb"
+};

@@ -45,6 +45,7 @@ tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
  tphase=0;
  norms=AN_NORML;
 
+ for (int c=0;c<100;c++) pspec[c]=0;
  for (int c=0;c<100;c++) pdat[c]=0;
  pbk = new QPixmap(*pbase);
  setBackgroundPixmap(*pbk);

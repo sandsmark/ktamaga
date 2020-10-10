@@ -103,7 +103,6 @@ private:
     QPushButton 	*quit;
     QPushButton 	*bcont[8]; // 8 bushbuttons
     QWidget		*cont; // container
-    QString		datadir;
     
     KMenuBar            *menu;
     QPopupMenu		*pmenu;

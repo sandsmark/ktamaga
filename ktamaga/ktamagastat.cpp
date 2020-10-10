@@ -29,12 +29,11 @@ Ktamaga::Ktamaga( QWidget *parent, const char *name )
  initVars();
 
  cont = new QWidget( this );
- datadir = app->kde_datadir()+TDATADS;
 
- bp.load(datadir+"/bg1.xpm");
+ bp.load(config->datadir+"/bg1.xpm");
  
  for (c=0;c<B_MAX;c++)
-  pcont[c].load((datadir+"/")+icnam[c]);
+  pcont[c].load((config->datadir+"/")+icnam[c]);
 
  createWidgets();
  setCaption("Tamaga");

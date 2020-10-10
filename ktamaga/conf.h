@@ -30,6 +30,7 @@ public:
     int		tflevel;
     int		dbgreq,resetreq;
     int		sound;
+    QString     datadir;
 
     conf( QWidget* parent = 0, const char* name = 0 );
     int		load( void );

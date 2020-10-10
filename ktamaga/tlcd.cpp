@@ -23,10 +23,8 @@
 
 tlcd::tlcd( QWidget *parent, const char *name ) : QWidget( parent, name )
 {
- datadir = app->kde_datadir()+TDATADS;
-
  pbase = new QPixmap();
- pbase->load(datadir+"/tama_base.xpm");
+ pbase->load(config->datadir+"/tama_base.xpm");
  curan=0;
  framecnt=0;
  fcn=0;
@@ -167,7 +165,7 @@ void tlcd::loadblock( void )
  unsigned char bx[10];
 
  printf("Loading block %d",tphase);
- sprintf(buf,datadir+"/phase_%d.dat",tphase);
+ sprintf(buf,config->datadir+"/phase_%d.dat",tphase);
  f = new QFile(buf);
  if (!f->open(IO_Raw|IO_ReadOnly)) {
   printf("\nError opening file %s !\n",buf);
@@ -215,7 +213,7 @@ void tlcd::loadbase( void )
  unsigned int a;
 
  printf("Loading base block");
- sprintf(buf,datadir+"/phase_other.dat");
+ sprintf(buf,config->datadir+"/phase_other.dat");
  f = new QFile(buf);
 
  if (!f->open(IO_Raw|IO_ReadOnly)) {
@@ -258,7 +256,7 @@ void tlcd::loadbase( void )
  int cnt=0;
 
  printf("Loading base pixmaps\n");
- sprintf(buf,datadir+"/other/");
+ sprintf(buf,config->datadir+"/other/");
  for ( ; *p ; p++ ) {
   sprintf(buf2,"%s%s.xpm",buf,*p);
   pspec[cnt] = convXpm(buf2);
@@ -448,7 +446,7 @@ void tlcd::loadPos( void )
  char *p;
  int cnt=0,c;
 
- sprintf(buf,datadir+"/position_%d.dat",tphase);
+ sprintf(buf,config->datadir+"/position_%d.dat",tphase);
  f.setName(buf);
  if (!f.open(IO_ReadOnly|IO_Translate)) {
    printf("Error loading pos's\n");
@@ -475,7 +473,7 @@ void tlcd::savePos( void )
  char buf[303];
  int cnt=0;
 
- sprintf(buf,datadir+"/position_%d.dat",tphase);
+ sprintf(buf,config->datadir+"/position_%d.dat",tphase);
  f.setName(buf);
  if (!f.open(IO_WriteOnly|IO_Truncate)) {
    printf("Error opening/save pos's\n");

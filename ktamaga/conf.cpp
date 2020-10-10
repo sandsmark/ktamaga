@@ -40,6 +40,18 @@ conf::conf( QWidget* parent, const char* name ) : Inherited( parent, name )
  sound=1;
  resetreq=0;
  tflevel=2;
+
+ datadir = app->kde_datadir()+TDATADS;
+
+ // Support running without installing
+ // Check if we're being run from the builddir
+ if (!QFile::exists(datadir) && QFile::exists("../ktamaga/data/")) {
+     datadir = "../ktamaga/data/";
+ }
+ // Check for in source build
+ if (!QFile::exists(datadir) && QFile::exists("./ktamaga/data/")) {
+     datadir = "./ktamaga/data/";
+ }
 }
 
 void conf::helpClicked()

@@ -103,7 +103,6 @@ private:
  QPixmap	*pdat[100];
  QPixmap	*pspec[100];
  QPixmap	*pbase,*pbk;
- QString	datadir;
 
  void		ShowInfos( void );
  void		StepAnim( void );

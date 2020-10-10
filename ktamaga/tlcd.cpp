@@ -240,7 +240,7 @@ void tlcd::loadbase( void )
 
   pspec[cnt] = new QPixmap();
   pspec[cnt]->loadFromData((unsigned char *)r,a);
-  if (!pspec[cnt]) printf("Pixmapload error cnt=%d !\n",cnt);
+  if (!pspec[cnt] || pspec[cnt]->isNull()) printf("Pixmapload error cnt=%d !\n",cnt);
   r+=a;
 
   cnt++;

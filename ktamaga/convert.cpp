@@ -157,7 +157,7 @@ void convblock( char *bn, int sp=0 )
 }
 
 
-int main( int, int )
+int main( int, char * /*argv */[] )
 {
  convblock("0");
  convblock("1");

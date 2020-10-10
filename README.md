@@ -15,7 +15,7 @@ This program falls under the GNU GPL v2, see the file 'COPYING'.
 
  To compile&install:
  ===================
-  edit the Makefile, changing paths if necessary
+  cmake .
   make
   make install
 
